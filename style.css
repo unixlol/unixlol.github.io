@@ -1,0 +1,37 @@
+body {
+	display: flex;
+	justify-content: center;
+	background-color: rgba(0,0,0,1);
+	background-image: url("https://wallpaperclicker.com/storage/wallpaper/COOL-car-WALLPAPER-6985-67767944.jpg");
+	background-position: top;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-size: cover;
+}
+
+h1{
+	position: absolute;
+	display: flex;
+	color: white;
+	margin-top: 100px;
+	transition: transform .2s;
+	font-family: 'Montserrat', sans-serif;
+}
+
+button{
+	display: flex;
+	margin-top: 800px;
+	width: 200px;
+	height: 75px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1:hover{
+	transform: scale(2.5);
+	transition: transform .2s;
+}
+
+button:hover{
+	transform: scale(1.5);
+	transition: transform .2s;
+}
